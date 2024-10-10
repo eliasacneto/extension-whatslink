@@ -38,7 +38,7 @@
 
 ## 🎨 Screenshot
 
-<img alt="" src="./images/screenshot.png" width="25%" >
+<img alt="" src="./images/screenshot.png" width="40%" >
 
 ## ⚙️ Technologies Used
 
