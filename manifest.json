@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsLink",
+    "version": "1.0",
+    "description": "Gerador de links para WhatsApp",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "wl-logo.png",
+            "48": "wl-logo.png",
+            "128": "wl-logo.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["clipboardWrite"],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
